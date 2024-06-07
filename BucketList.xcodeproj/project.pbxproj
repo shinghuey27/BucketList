@@ -11,6 +11,10 @@
 		99C911502C12D7F600DBE582 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C9114F2C12D7F600DBE582 /* ContentView.swift */; };
 		99C911522C12D7F700DBE582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C911512C12D7F700DBE582 /* Assets.xcassets */; };
 		99C911552C12D7F700DBE582 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99C911542C12D7F700DBE582 /* Preview Assets.xcassets */; };
+		99C9115C2C12EF1B00DBE582 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C9115B2C12EF1B00DBE582 /* Location.swift */; };
+		99C9115E2C12F10600DBE582 /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C9115D2C12F10600DBE582 /* EditView.swift */; };
+		99C911602C12F2BC00DBE582 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C9115F2C12F2BC00DBE582 /* Result.swift */; };
+		99C911622C12F5E100DBE582 /* ContentView-ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C911612C12F5E100DBE582 /* ContentView-ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		99C9114F2C12D7F600DBE582 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		99C911512C12D7F700DBE582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99C911542C12D7F700DBE582 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99C9115B2C12EF1B00DBE582 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		99C9115D2C12F10600DBE582 /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		99C9115F2C12F2BC00DBE582 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		99C911612C12F5E100DBE582 /* ContentView-ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ContentView-ViewModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				99C9114D2C12D7F600DBE582 /* BucketListApp.swift */,
 				99C9114F2C12D7F600DBE582 /* ContentView.swift */,
+				99C911612C12F5E100DBE582 /* ContentView-ViewModel.swift */,
+				99C9115D2C12F10600DBE582 /* EditView.swift */,
+				99C9115F2C12F2BC00DBE582 /* Result.swift */,
 				99C911512C12D7F700DBE582 /* Assets.xcassets */,
 				99C911532C12D7F700DBE582 /* Preview Content */,
+				99C9115B2C12EF1B00DBE582 /* Location.swift */,
 			);
 			path = BucketList;
 			sourceTree = "<group>";
@@ -138,6 +150,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				99C911502C12D7F600DBE582 /* ContentView.swift in Sources */,
+				99C911622C12F5E100DBE582 /* ContentView-ViewModel.swift in Sources */,
+				99C911602C12F2BC00DBE582 /* Result.swift in Sources */,
+				99C9115C2C12EF1B00DBE582 /* Location.swift in Sources */,
+				99C9115E2C12F10600DBE582 /* EditView.swift in Sources */,
 				99C9114E2C12D7F600DBE582 /* BucketListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +290,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BucketList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +319,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"BucketList/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
